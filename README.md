@@ -11,4 +11,10 @@ It also configures the basic configurations and deploys it.
     * Import-Module VMware.VimAutomation.Core 
     * Import-Module VMware.VimAutomation.Vds 
     * Import-Module VMware.VimAutomation.Storage
-* Save these scripts locally, either click on Run or enter ./script-name.ps1 from CLI.
+* Save these scripts locally. 
+* Specify the details of the environment to be created in the “auto.ini” file.
+* Either open "cfgread.ps1" from File dropdown and click on Run or enter "./cfgread.ps1" from CLI.
+
+# How it works
+
+![Script execution flow](images/VM-script-process.png)
