@@ -17,7 +17,7 @@ It also configures the basic configurations and deploys it.
 * Once the execution is completed, to verify the VM(s) are created either 
       * Run the following command : **Get-ResourcePool -Name <resouce-pool name> | Get-VM** or
       * Login to your vSphere Web Client and verify the VM(s) are created in the Resource Pool you specified. 
-* Open the VM(s) either manually or through Powershell : Get-ResourcePool -Name <resouce-pool name> | Get-VM | Open-VMConsoleWindow to       verify that the specified configuration details are done.
+* Open the VM(s) either manually or through Powershell : **Get-ResourcePool -Name <resouce-pool name> | Get-VM | Open-VMConsoleWindow** to       verify that the specified configuration details are done.
  
      
       
