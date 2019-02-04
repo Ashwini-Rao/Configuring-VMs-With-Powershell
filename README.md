@@ -17,4 +17,5 @@ It also configures the basic configurations and deploys it.
 
 # How it works
 
-![Script execution flow](images/VM-script-process.png)
+
+<img src="images/VM-script-process.png" width="100", height="100">
