@@ -15,10 +15,10 @@ function Create-VMs-Templates
             [string]$ip,
             [string]$dnsIP,
             [string]$domain,
-			[string]$Location,
-			[string]$datastore,
-			[string]$gun,
-			[string]$gpwd )
+	    [string]$Location,
+	    [string]$datastore,
+	    [string]$gun,
+	    [string]$gpwd )
 
     #Create Resource Pool
     If (Get-ResourcePool $rp -ErrorAction SilentlyContinue)
