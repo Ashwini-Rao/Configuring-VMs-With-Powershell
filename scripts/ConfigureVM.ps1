@@ -10,7 +10,7 @@ function Configure_VM
             [string]$dnsIP,
             [string]$dom,
             [string]$gun,			
-			[string]$gpwd )
+	    [string]$gpwd )
                 
     
     <#The Here-String construction provides an easy way for handling text, it's speciality is dealing with speech marks and other delimiters without the need for inserting escape characters.
